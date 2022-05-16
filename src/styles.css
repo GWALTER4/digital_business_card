@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.business-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 44px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 317px;
+	font-family: Inter, sans-serif;
+	background-color: #f5f5f5;
+}
+
+#info__image {
+	height: 317px;
+	width: 317px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.info > h1 {
+	margin-top: 21px;
+	margin-bottom: 0px;
+	font-size: 25px;
+	font-weight: 700;
+	color: #2b283a;
+}
+
+.info > h4 {
+	margin-top: 2px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	font-weight: 400;
+	color: #f47d27;
+}
+
+.info > a {
+	margin-top: 9px;
+	font-size: 10px;
+	font-weight: 400px;
+	text-decoration: none;
+	color: #2b283a;
+}
+
+.info__buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	width: 80%;
+}
+
+.info__buttons > a {
+	width: 115px;
+	height: 34px;
+	border-radius: 6px;
+}
+
+.info__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #374151;
+}
+
+#info__button-left {
+	background-color: #ffffff;
+	border: 1px solid #d1d5db;
+}
+
+#info__button-right {
+	color: #ffffff;
+	background-color: #297fe5;
+	border: 0px;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	width: 247px;
+	padding: 25px 35px 0px;
+	font-family: Inter, sans-serif;
+	background-color: #f5f5f5;
+}
+
+.heading {
+	font-size: 16px;
+	font-weight: 700;
+	color: #2b283a;
+}
+
+.text {
+	font-size: 10px;
+	font-weight: 400;
+	color: #4a4e74;
+}
+
+.interests {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	width: 247px;
+	padding: 25px 35px 31px;
+	font-family: Inter, sans-serif;
+	background-color: #f5f5f5;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 64px;
+	width: 317px;
+	border-radius: 0px 0px 10px 10px;
+	background-color: #d5d4d8;
+}
+
+.social-media {
+	display: flex;
+	height: 30px;
+	gap: 24px;
+}
+
+.social-media > a {
+	font-size: 30px;
+	color: #918e9b;
+}

@@ -6,12 +6,12 @@ import Footer from "./Footer";
 
 const App = () => {
 	return (
-		<>
+		<div className="business-card">
 			<Info />
 			<About />
 			<Interests />
 			<Footer />
-		</>
+		</div>
 	);
 };
 
